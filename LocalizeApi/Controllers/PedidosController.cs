@@ -114,7 +114,7 @@ namespace LocalizeApi.Controllers
                 if (pedidos.Count() == 0)
                 {
                     await _PedidoService.CreatePedidoByCnpj(cnpj.ToString());
-                    return Ok($"Pedido com id={cnpj} atualizado com sucesso");
+                    return Ok($"Pedido com cnpj={cnpj} atualizado com sucesso");
                  
                 }
                 else
