@@ -1,8 +1,8 @@
-﻿using AlunosApi.Models;
+﻿using LocalizeApi.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace AlunosApi.Context
+namespace LocalizeApi.Context
 {
     public class AppDbContext : DbContext
     {

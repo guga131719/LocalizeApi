@@ -1,8 +1,8 @@
-﻿using AlunosApi.Models;
+﻿using LocalizeApi.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace AlunosApi.Services
+namespace LocalizesApi.Services
 {
     public interface IPedidoService
     {

@@ -1,5 +1,6 @@
-﻿using AlunosApi.Context;
-using AlunosApi.Models;
+﻿using LocalizeApi.Context;
+using LocalizeApi.Models;
+using LocalizesApi.Services;
 using Microsoft.EntityFrameworkCore;
 using RestSharp;
 using System;
@@ -8,7 +9,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace AlunosApi.Services
+namespace LocalizeApi.Services
 {
     public class PedidosService : IPedidoService
     {

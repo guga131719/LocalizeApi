@@ -1,5 +1,6 @@
-using AlunosApi.Context;
-using AlunosApi.Services;
+using LocalizeApi.Context;
+using LocalizeApi.Services;
+using LocalizesApi.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -8,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 
-namespace AlunosApi
+namespace LocalizeApi
 {
     public class Startup
     {

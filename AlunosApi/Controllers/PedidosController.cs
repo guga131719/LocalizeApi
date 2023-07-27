@@ -6,11 +6,12 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using AlunosApi.Models;
-using AlunosApi.Services;
+using LocalizeApi.Models;
+using LocalizeApi.Services;
 using System.Linq;
+using LocalizesApi.Services;
 
-namespace PedidosApi.Controllers
+namespace LocalizeApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
