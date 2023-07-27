@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalizaApi", "AlunosApi\LocalizaApi.csproj", "{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalizaApi", "LocalizeApi\LocalizaApi.csproj", "{2AEE1D8A-7A4C-45FB-A918-BDDF5B3834EE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectApi", "TestProjectApi\TestProjectApi.csproj", "{8B8B2BA3-4E7B-4D24-8608-5B14ED70C746}"
 EndProject
