@@ -4,11 +4,11 @@ using System.Net.Http;
 using System.Threading.Tasks;
 
 [TestClass]
-public class PedidoControllerTests
+public class TarefaControllerTests
 {
     private readonly HttpClient _client;
 
-    public PedidoControllerTests()
+    public TarefaControllerTests()
     {
         _client = new HttpClient
         {
@@ -17,14 +17,14 @@ public class PedidoControllerTests
     }
 
     [TestMethod]
-    public async Task BuscarPedidoPorId_DeveRetornarPedido()
+    public async Task BuscarTarefaPorId_DeveRetornarTarefa()
     {
         // Arrange
-        var idPedido = 1;
+        var idTarefa = 1;
         var expectedStatus = System.Net.HttpStatusCode.OK;
 
         // Act
-        var response = await _client.GetAsync($"api/pedido/{idPedido}");
+        var response = await _client.GetAsync($"api/Tarefa/{idTarefa}");
         var actualStatus = response.StatusCode;
 
         // Assert

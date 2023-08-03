@@ -1,0 +1,5 @@
+C:\Users\guga\Desktop\Teste_b3_projeto\back_end\TarefaApi_soa\TarefaApi\TestProjectApi\obj\Debug\net5.0\TestProjectApi.csproj.AssemblyReference.cache
+C:\Users\guga\Desktop\Teste_b3_projeto\back_end\TarefaApi_soa\TarefaApi\TestProjectApi\obj\Debug\net5.0\TestProjectApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guga\Desktop\Teste_b3_projeto\back_end\TarefaApi_soa\TarefaApi\TestProjectApi\obj\Debug\net5.0\TestProjectApi.AssemblyInfoInputs.cache
+C:\Users\guga\Desktop\Teste_b3_projeto\back_end\TarefaApi_soa\TarefaApi\TestProjectApi\obj\Debug\net5.0\TestProjectApi.AssemblyInfo.cs
+C:\Users\guga\Desktop\Teste_b3_projeto\back_end\TarefaApi_soa\TarefaApi\TestProjectApi\obj\Debug\net5.0\TestProjectApi.csproj.CoreCompileInputs.cache

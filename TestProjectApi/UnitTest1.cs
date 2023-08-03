@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 
 [TestClass]
-public class PedidoControllerTests
+public class TarefaControllerTests
 {
     private readonly HttpClient _client;
 
-    public PedidoControllerTests()
+    public TarefaControllerTests()
     {
         _client = new HttpClient
         {
@@ -20,13 +20,13 @@ public class PedidoControllerTests
     }
 
     [TestMethod]
-    public async Task DeveRetornarStatusCodeOK_QuandoChamarGetPedidos()
+    public async Task DeveRetornarStatusCodeOK_QuandoChamarGetTarefas()
     {
         // Arrange
         var expectedStatus = HttpStatusCode.OK;
 
         // Act
-        var response = await _client.GetAsync("api/pedidos");
+        var response = await _client.GetAsync("api/Tarefas");
         var actualStatus = response.StatusCode;
 
         // Assert
@@ -34,14 +34,14 @@ public class PedidoControllerTests
     }
 
     [TestMethod]
-    public async Task DeveRetornarStatusCodeOK_QuandoChamarGetPedidoPorCNPJ()
+    public async Task DeveRetornarStatusCodeOK_QuandoChamarGetTarefaPorCNPJ()
     {
         // Arrange
         var cnpj = "06034513000108";
         var expectedStatus = HttpStatusCode.OK;
 
         // Act
-        var response = await _client.GetAsync($"api/pedidos?cnpj={cnpj}");
+        var response = await _client.GetAsync($"api/Tarefas?cnpj={cnpj}");
         var actualStatus = response.StatusCode;
 
         // Assert
@@ -49,14 +49,14 @@ public class PedidoControllerTests
     }
 
     [TestMethod]
-    public async Task DeveRetornarStatusCodeOK_QuandoChamarGetPedidoPorId()
+    public async Task DeveRetornarStatusCodeOK_QuandoChamarGetTarefaPorId()
     {
         // Arrange
-        var idPedido = 1;
+        var idTarefa = 1;
         var expectedStatus = HttpStatusCode.OK;
 
         // Act
-        var response = await _client.GetAsync($"api/pedidos/{idPedido}");
+        var response = await _client.GetAsync($"api/Tarefas/{idTarefa}");
         var actualStatus = response.StatusCode;
 
         // Assert
@@ -64,22 +64,22 @@ public class PedidoControllerTests
     }
 
     [TestMethod]
-    public async Task DeveRetornarStatusCodeOK_QuandoChamarPutPedidoPorCNPJ()
+    public async Task DeveRetornarStatusCodeOK_QuandoChamarPutTarefaPorCNPJ()
     {
         // Arrange
         var cnpj = "06034513000108";
-        var pedido = new Pedido
+        var Tarefa = new Tarefa
         {
             Id = 1,
             CNPJ = "06034513000108",
             Resultado = "string de resultado"
         };
-        var jsonPedido = JsonConvert.SerializeObject(pedido);
-        var content = new StringContent(jsonPedido, Encoding.UTF8, "application/json");
+        var jsonTarefa = JsonConvert.SerializeObject(Tarefa);
+        var content = new StringContent(jsonTarefa, Encoding.UTF8, "application/json");
         var expectedStatus = HttpStatusCode.OK;
 
         // Act
-        var response = await _client.PutAsync($"api/pedidos/{cnpj}", content);
+        var response = await _client.PutAsync($"api/Tarefas/{cnpj}", content);
         var actualStatus = response.StatusCode;
 
         // Assert
@@ -87,21 +87,21 @@ public class PedidoControllerTests
     }
 
     [TestMethod]
-    public async Task DeveRetornarStatusCodeOK_QuandoChamarPostPedido()
+    public async Task DeveRetornarStatusCodeOK_QuandoChamarPostTarefa()
     {
         // Arrange
-        var pedido = new Pedido
+        var Tarefa = new Tarefa
         {
             Id = 1,
             CNPJ = "06034513000108",
             Resultado = "string de resultado"
         };
-        var jsonPedido = JsonConvert.SerializeObject(pedido);
-        var content = new StringContent(jsonPedido, Encoding.UTF8, "application/json");
+        var jsonTarefa = JsonConvert.SerializeObject(Tarefa);
+        var content = new StringContent(jsonTarefa, Encoding.UTF8, "application/json");
         var expectedStatus = HttpStatusCode.OK;
 
         // Act
-        var response = await _client.PostAsync("api/pedidos", content);
+        var response = await _client.PostAsync("api/Tarefas", content);
         var actualStatus = response.StatusCode;
 
         // Assert
@@ -109,14 +109,14 @@ public class PedidoControllerTests
     }
 
     [TestMethod]
-    public async Task DeveRetornarStatusCodeOK_QuandoChamarDeletePedidoPorId()
+    public async Task DeveRetornarStatusCodeOK_QuandoChamarDeleteTarefaPorId()
     {
         // Arrange
-        var idPedido = 1;
+        var idTarefa = 1;
         var expectedStatus = HttpStatusCode.OK;
 
         // Act
-        var response = await _client.DeleteAsync($"api/pedidos/{idPedido}");
+        var response = await _client.DeleteAsync($"api/Tarefas/{idTarefa}");
         var actualStatus = response.StatusCode;
 
         // Assert
@@ -124,7 +124,7 @@ public class PedidoControllerTests
     }
 }
 
-public class Pedido
+public class Tarefa
 {
     public int Id { get; set; }
     public string CNPJ { get; set; }

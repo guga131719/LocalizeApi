@@ -1,7 +1,8 @@
-CREATE DATABASE [localize_teste]
+CREATE DATABASE [b3_teste]
 
-CREATE TABLE [dbo].[Pedidos](
+CREATE TABLE [dbo].[Tarefas](
 	[Id] [int] NULL,
-	[CNPJ] [varchar](200) NULL,
-	[Resultado] [text] NULL
+	[description] [varchar](300) NULL,
+	[date] [date] NULL,
+	[status] [varchar](50) NULL,
 )

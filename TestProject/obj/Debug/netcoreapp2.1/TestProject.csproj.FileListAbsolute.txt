@@ -1,0 +1,17 @@
+C:\work\.net\AlunosApi_soa\AlunosApi\TestProject\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\work\.net\AlunosApi_soa\AlunosApi\TestProject\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\work\.net\AlunosApi_soa\AlunosApi\TestProject\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\work\.net\AlunosApi_soa\AlunosApi\TestProject\bin\Debug\netcoreapp2.1\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\work\.net\AlunosApi_soa\AlunosApi\TestProject\bin\Debug\netcoreapp2.1\selenium-manager\linux\selenium-manager
+C:\work\.net\AlunosApi_soa\AlunosApi\TestProject\bin\Debug\netcoreapp2.1\selenium-manager\macos\selenium-manager
+C:\work\.net\AlunosApi_soa\AlunosApi\TestProject\bin\Debug\netcoreapp2.1\selenium-manager\windows\selenium-manager.exe
+C:\work\.net\AlunosApi_soa\AlunosApi\TestProject\bin\Debug\netcoreapp2.1\TestProject.deps.json
+C:\work\.net\AlunosApi_soa\AlunosApi\TestProject\bin\Debug\netcoreapp2.1\TestProject.dll
+C:\work\.net\AlunosApi_soa\AlunosApi\TestProject\bin\Debug\netcoreapp2.1\TestProject.pdb
+C:\work\.net\AlunosApi_soa\AlunosApi\TestProject\obj\Debug\netcoreapp2.1\TestProject.csproj.AssemblyReference.cache
+C:\work\.net\AlunosApi_soa\AlunosApi\TestProject\obj\Debug\netcoreapp2.1\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\.net\AlunosApi_soa\AlunosApi\TestProject\obj\Debug\netcoreapp2.1\TestProject.AssemblyInfoInputs.cache
+C:\work\.net\AlunosApi_soa\AlunosApi\TestProject\obj\Debug\netcoreapp2.1\TestProject.AssemblyInfo.cs
+C:\work\.net\AlunosApi_soa\AlunosApi\TestProject\obj\Debug\netcoreapp2.1\TestProject.csproj.CoreCompileInputs.cache
+C:\work\.net\AlunosApi_soa\AlunosApi\TestProject\obj\Debug\netcoreapp2.1\TestProject.dll
+C:\work\.net\AlunosApi_soa\AlunosApi\TestProject\obj\Debug\netcoreapp2.1\TestProject.pdb
